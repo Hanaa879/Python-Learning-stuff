@@ -1,0 +1,11 @@
+#type annotation
+age: int = 10
+#here int is annotation of what datatype 10 is
+#helps developer catch errors
+name: str = "Siena"
+
+#f-string is to reduce complex string like the one below
+print("Name:" + name + ", Age:" + str(age))
+#f-string example
+print(f'Name: {name}, Age: {age}')
+#output is same
