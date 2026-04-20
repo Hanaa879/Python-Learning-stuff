@@ -1,0 +1,21 @@
+#creating a variable
+name = 'Bob'
+print("Hello," + name + "!")
+print("Hello, World!")
+#string
+text = "apple"
+#integer negeative values are still considered
+number = 10
+#float
+decimal = 0.8
+#boolean shows only true and false
+has_food = False
+#tuple means its a list that cant be changed after being made
+coordinates = (0.1, 0.2, 0.3)
+#lists use square bracket and can be changed
+colours = ['red', 'blue', 'yellow']
+#set uses curly brackets, no duplicates
+unique = {1, 2, 3, 4,}
+print(unique)
+#dictionary holds key value pairs
+users = {'B': 1, "C": 2}
