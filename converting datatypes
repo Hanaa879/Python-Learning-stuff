@@ -1,0 +1,6 @@
+#coverting one data type to another
+number = '100'
+#this number is in sting format so it cant be added with integer
+print(10 + 10)
+print(10 + int(number))
+#int() is a datatype you want to turn something into. If your core value is ten not 10 then it cant be added with an integer
