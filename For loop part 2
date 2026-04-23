@@ -1,0 +1,7 @@
+#loops in python
+#1.for loop - finite looping   
+from typing import List
+
+names: List[str] = ["Atna", "Bob", "Cleo"]
+for name in names:
+    print(f'Hello, {name}')
