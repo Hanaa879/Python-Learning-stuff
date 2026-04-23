@@ -1,0 +1,7 @@
+#function made
+def add(a: float, b: float) -> float:
+    print(f'Adding: {a} + {b} ')
+    return a + b
+
+print(add(15, 30))
+#any changes to function will be shown in function call
