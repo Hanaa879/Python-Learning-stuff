@@ -1,0 +1,11 @@
+a: int = 1
+b: int = 2
+
+#comparison operators
+print(b)
+print(a)
+print(a > b)
+print(a < b)
+print(a == b)
+print(a <= b)
+print(a >= b)
