@@ -1,0 +1,7 @@
+#loops in python
+#1.for loop - finite looping   
+#2.while loop - infinite looping
+while True:
+    print("Hello")
+
+#this runs infinetly so usually while usually has conditions
