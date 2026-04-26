@@ -1,0 +1,11 @@
+#exceptions
+a, b = 10, 'fifteen'
+
+try:
+    print(a + b)
+except Exception as e:
+    print(f'Something went wrong: {e}')
+    
+print("please enter numerical numbers or valid number")
+# this handles all types of exception but we only need to handle type error
+#you can add multiple exception block just e is a bit dangerous since it erases all error
