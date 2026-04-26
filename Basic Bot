@@ -1,0 +1,7 @@
+bot_name: str = " STAR "
+print(" Hello I am {bot_name}. How can I help you?")
+
+while True:
+      user_input: str = input("You:").lower()
+      if user_input in ["hi", "hellow"]:
+         print(f'
