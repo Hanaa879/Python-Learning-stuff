@@ -1,7 +1,21 @@
-bot_name: str = " STAR "
-print(" Hello I am {bot_name}. How can I help you?")
+#chatbot project
+bot_name: str = 'STAR'
+print(f'Hello I am {bot_name}. How can I help you?')
 
 while True:
-      user_input: str = input("You:").lower()
-      if user_input in ["hi", "hellow"]:
-         print(f'
+    user_input: str = input("You:").lower()
+    if user_input in ["hi", "hellow"]:
+        print(f'{bot_name}: Hi how can I help you?')
+    elif user_input in ["bye", "see you"]:
+        print(f'{bot_name}: GoodBye! See you later andhave a good day!')
+    elif user_input in ['+', 'add']:
+        print(f'{bot_name}: Ok let\s do some addition! Please input two values.')
+        try:
+            num1: float = float(input("First Number:"))
+            num2: float = float(input("Second Number:"))
+            print(f'{bot_name}: The result is {num1 + num2}')
+        except ValueError:
+            print(f'{bot_name}: Oops! That doesn\'t seem to be a valid number. Please try again.')  
+    else:
+        print(f"{bot_name}: Sorry, I didn't understand that. Can you please rephrase?")
+          
